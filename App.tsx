@@ -54,7 +54,7 @@ const App: React.FC = () => {
       <Footer />
       {/* Floating WhatsApp chat button */}
       <a
-        href="https://wa.me/254719543587?text=Hello%20Tuff%20Experts%2C%20I%27d%20like%20a%20quote%20for%20a%20carpet%2Ftuff%20field%20project."
+        href="https://wa.me/254728614934?text=Hello%20Tuff%20Experts%2C%20I%27d%20like%20a%20quote%20for%20a%20wall%20to%20wall%20carpet%2Ftuff%20field%20project."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat with Tuff Experts on WhatsApp"

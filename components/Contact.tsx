@@ -4,9 +4,9 @@ import { PhoneIcon, MailIcon, LocationMarkerIcon, ClockIcon, CheckCircleIcon } f
 import { motion } from 'framer-motion';
 import { fadeIn } from './AnimationUtils';
 
-const PHONE_DISPLAY = '0719 543587';
-const PHONE_TEL = 'tel:0719543587';
-const WHATSAPP_LINK = 'https://wa.me/254719543587';
+const PHONE_DISPLAY = '0728 614934';
+const PHONE_TEL = 'tel:0728614934';
+const WHATSAPP_LINK = 'https://wa.me/254728614934';
 const EMAIL = 'tuffexperts@gmail.com';
 
 const ContactInfoItem: React.FC<{ icon: React.ReactNode; label: string; value: string; href?: string }> = ({ icon, label, value, href }) => (
