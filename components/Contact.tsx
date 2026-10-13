@@ -6,6 +6,8 @@ import { fadeIn } from './AnimationUtils';
 
 const PHONE_DISPLAY = '0728 614934';
 const PHONE_TEL = 'tel:0728614934';
+const PHONE2_DISPLAY = '0719 543587';
+const PHONE2_TEL = 'tel:0719543587';
 const WHATSAPP_LINK = 'https://wa.me/254728614934';
 const EMAIL = 'tuffexperts@gmail.com';
 
@@ -193,7 +195,8 @@ const Contact: React.FC = () => {
           >
             <h3 className="text-2xl font-bold text-brand-dark mb-8">Contact Information</h3>
             <div className="space-y-7">
-              <ContactInfoItem icon={<PhoneIcon className="h-6 w-6" />} label="Phone" value={PHONE_DISPLAY} href={PHONE_TEL} />
+              <ContactInfoItem icon={<PhoneIcon className="h-6 w-6" />} label="Call Us" value={PHONE_DISPLAY} href={PHONE_TEL} />
+              <ContactInfoItem icon={<PhoneIcon className="h-6 w-6" />} label="Call Us (2nd Line)" value={PHONE2_DISPLAY} href={PHONE2_TEL} />
               <ContactInfoItem icon={<MailIcon className="h-6 w-6" />} label="Email" value={EMAIL} href={`mailto:${EMAIL}`} />
               <ContactInfoItem icon={<LocationMarkerIcon className="h-6 w-6" />} label="Service Area" value="Nairobi, Kenya & Surrounding Counties" />
               <div className="flex items-start">

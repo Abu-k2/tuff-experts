@@ -86,6 +86,10 @@ const Footer: React.FC = () => {
                 <a href="tel:0728614934" className="hover:text-white transition-colors break-words">0728 614934</a>
               </li>
               <li className="flex items-center min-w-0">
+                <PhoneIcon className="h-5 w-5 mr-3 text-brand-green flex-shrink-0" />
+                <a href="tel:0719543587" className="hover:text-white transition-colors break-words">0719 543587</a>
+              </li>
+              <li className="flex items-center min-w-0">
                 <MailIcon className="h-5 w-5 mr-3 text-brand-green flex-shrink-0" />
                 <a href="mailto:tuffexperts@gmail.com" className="hover:text-white transition-colors break-all">tuffexperts@gmail.com</a>
               </li>
